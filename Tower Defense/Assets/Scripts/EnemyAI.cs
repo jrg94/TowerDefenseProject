@@ -53,7 +53,7 @@ public class EnemyAI : MonoBehaviour {
 	//Move the rigid body that is attached to this script
 	void MoveCharacter(){
 
-		rigidbody.transform.Translate (velocity * Time.deltaTime);
+		GetComponent<Rigidbody>().transform.Translate (velocity * Time.deltaTime);
 	}
 
 	//Trigger event:
