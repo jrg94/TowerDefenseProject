@@ -1,0 +1,27 @@
+Issues & Bugs:
+
+2/14/15
+
+I recommend we begin running a lot of our in game 'stuff' through the new
+notifications manager. It can hold all objects that require calls when events
+happen. It may be useful for attacking. Also, we should consider spawn pooling!
+
+All button calls to game control go through the prefab (Could be an issue)
+
+1/31/15
+
+Need to solve an issue with syncing data over the game                              
+control network. Thinking about doing away with MapManager
+script and handling all map work through game control (data hub).
+
+Game control also only supports a single file of save data right                        // PATCHED //
+now. It wouldn't be hard to patch this! Then buttons could
+be synced to game control.
+
+Saving needs to be integrated into the game at some point. Possibly save
+with a menu button or maybe save on scene changes. Animated icon needs 
+to appear to show that you've saved successfully.
+
+The save function currently creates a fresh file everytime you save.
+There is no current merge and write back. Saving could be expensive
+in the future.

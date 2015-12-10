@@ -1,0 +1,89 @@
+#######################################################################################
+#										      #
+#			   Super cool Tower Defense Game			      #
+#									 	      #
+#######################################################################################
+
+-Version 0.23
+
+	Added smart attacking
+	Implemented instance destroying on death
+
+-Version 0.22
+
+	Converted all GUI structures to Unity 4.6
+	Incorporated a save&quit button on the map which has been tested to correctly save data
+	All load buttons now do a load of the data as well as a save index set 
+	Reduced all my scripts down to four for all menus and GUIs
+	Currently running all button calls through the game control prefab (seems to work...)
+
+-Version 0.21
+
+	Redesigned the Title and Load screens with Unity 4.6's canvases
+	Removed some of the button hierarchy of files
+	Introduced the notifications system which could be for use of the actual game
+	Made Gui Manager, Game Control, and Notifications Manager all singletons
+
+-Version 0.20
+
+	MapManager is configured to work with data persistence
+	MapManager will load buttons based on level variable
+	Level can be updated through a win command when the enemy base has been destroyed
+	Load buttons now check for a file to load (No save buttons currently implemented)
+
+-Version 0.19
+
+	Introduced data persistence:
+		Data can be saved between scenes
+		Data can be retreived on exit
+
+-Version 0.18
+
+	Added support for all buttons including new map buttons
+	Constructed a button container for the map
+	Added support for thirteen levels
+	Added some button script hierarchy to differentiate level, title, and menu buttons
+	All four scenes are currently linked
+	Produced the skeleton of a map manager script to show/hide levels based on completeness
+
+-Version 0.17
+
+	Added collision detection to enemy character
+	Added cooldown system for enemy attacks
+	Put tree models into scene to livin things up
+
+-Version 0.15
+
+	Introduced a load file scene
+	Changed button script to handle variable scenes
+
+-Version 0.14
+
+	Reorganized test scenes
+	added movement to character object
+
+-Version 0.13
+
+	Introduced some mouse additions to the start button:
+		Scale effects on rollover
+		Game start on click
+
+-Version 0.12
+
+	Successfully merged Update 0.11 and Update 0.1
+
+
+-Version 0.11
+
+	Implemented a GUI that overlays the game
+	GUI disappears on space bar input (To be changed to a push		button later)
+
+-Update 0.10
+	
+	Added TestField
+	Added TestCharacter
+	Added Super poor outline of code with error
+
+
+
+
